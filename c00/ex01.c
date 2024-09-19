@@ -1,3 +1,11 @@
-//
-// Created by Cheetoh on 19-09-24.
-//
+#include <unistd.h>
+
+void ft_print_alphabet(void)
+{
+    char a = 'a';
+    while (a <= 'z')
+    {
+        write(1, &a, 1);
+        a++;
+    }
+}
