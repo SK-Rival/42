@@ -1,3 +1,7 @@
-//
-// Created by Cheetoh on 19-09-24.
-//
+#include <unistd.h>
+
+void ft_putchar(char c)
+
+{
+    write(1, &c, 1);
+}
