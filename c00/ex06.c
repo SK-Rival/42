@@ -1,3 +1,4 @@
-//
-// Created by Cheetoh on 19-09-24.
-//
+#include <unistd.h>
+
+void ft_print_comb2(void)
+
